@@ -94,7 +94,7 @@ function createInfoMarkup(data) {
     ({ name, capital, population, flags, languages }) =>
       `<h1><img src="${flags.png}" alt="${
         name.official
-      }" width="30" height="30">${name.official}</h1>
+      }" width="70" height="50">${name.official}</h1>
       <p><b>Capital:</b> ${capital}</p>
       <p><b>Population:</b> ${population}</p>
       <p><b>Languages:</b> ${Object.values(languages)}</p>`
